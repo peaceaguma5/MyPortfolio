@@ -168,7 +168,6 @@ padding: 10rem 9% 2rem;
     margin: 2rem 0 4rem;
 }
 
-
 .home-content h1::before {
     content: '';
     position: absolute;
