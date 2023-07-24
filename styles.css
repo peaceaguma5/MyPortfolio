@@ -99,13 +99,20 @@ padding: 10rem 9% 2rem;
 }
 
 .home {
-    background: url('img.jpg') no-repeat;
-    background-size: auto;
+    background-size: contain;
     background-position: right;
     height: 100vh;
     display: flex;
     align-items: center;
     padding: 0 10%;
+}
+
+.img-display img {
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    display: flex;
+    margin: 70px 0 50px 27%;
+    width: 78%;
 }
 
 .home-content {
