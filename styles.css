@@ -110,7 +110,7 @@ padding: 10rem 9% 2rem;
     border: .2rem solid var(--main-color);
     border-radius: 50%;
     display: flex;
-    margin: 80% 0 70% 27%;
+    margin: 80% 0 100% 27%;
     width: 75%;
 }
 
@@ -159,7 +159,7 @@ padding: 10rem 9% 2rem;
     border-right: 2px solid var(--main-color);
     z-index: -1;
     animation: homeCursorText 6s linear infinite;
-  animation-delay: 2s;
+    animation-delay: 2s;
 }
 
 .home-content p {
@@ -721,7 +721,6 @@ h3 b {
 @media (max-width: 768px) {
     .header {
      background: var(--bg-color);
-     display: flex;
     }
 
     #menu-icon {
