@@ -52,7 +52,7 @@ function toggleContent(event) {
     event.preventDefault(); // Prevent default anchor link behavior
     showContent = !showContent;
     const contentDiv = document.querySelector('.p');
-    const btn = document.querySelector('.btn');
+    const btn = document.querySelector('#btn');
     if (showContent) {
         contentDiv.style.display = 'block';
         btn.innerText = 'Read Less';
