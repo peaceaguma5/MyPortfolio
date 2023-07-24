@@ -61,3 +61,11 @@ function toggleContent(event) {
         btn.innerText = 'Read More';
     }
 }
+
+// Get current year()
+    const footerDiv = document.getElementById('footer');
+
+    // Get the current year using Date.now() and update the span with id "current-year"
+    const currentYear = new Date().getFullYear();
+    const yearSpan = document.getElementById('current-year');
+    yearSpan.textContent = currentYear;
