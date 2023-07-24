@@ -432,6 +432,10 @@ span {
     margin: 2rem 0 3rem;
 }
 
+.p {
+    display: none;
+}
+
 .btn-box.btns {
     display: inline-block;
     width: 15rem;
