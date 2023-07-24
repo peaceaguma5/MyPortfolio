@@ -44,3 +44,20 @@ header.classList.toggle('sticky', window.scrollY > 100);
 menuIcon.classList.remove('bx-x');
 navbar.classList.remove('active');
 }
+
+//toggle content 
+let showContent = false;
+
+function toggleContent(event) {
+    event.preventDefault(); // Prevent default anchor link behavior
+    showContent = !showContent;
+    const contentDiv = document.querySelector('.p');
+    const btn = document.querySelector('.btn');
+    if (showContent) {
+        contentDiv.style.display = 'block';
+        btn.innerText = 'Read Less';
+    } else {
+        contentDiv.style.display = 'none';
+        btn.innerText = 'Read More';
+    }
+}
